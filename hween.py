@@ -1,6 +1,8 @@
 ﻿import sys, time, subprocess
 print "hello"
 time.sleep(2)
+print(chr(27) + "[2J")
+
 def experiment_xxx():
    print("Installing XXX...      ")
    time.sleep(1)
