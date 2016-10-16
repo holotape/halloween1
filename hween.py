@@ -1,23 +1,52 @@
-﻿p0p = "░░░░░░░░░░"
-p10p = "▓░░░░░░░░░"
-p20p = "▓▓░░░░░░░░"
-p30p = "▓▓▓░░░░░░░"
-p40p = "▓▓▓▓░░░░░░"
-p50p = "▓▓▓▓▓░░░░░"
-p60p = "▓▓▓▓▓▓░░░░"
-p70p = "▓▓▓▓▓▓▓░░░"
-p80p = "▓▓▓▓▓▓▓▓░░"
-p90p = "▓▓▓▓▓▓▓▓▓░"
-p100p = "▓▓▓▓▓▓▓▓▓▓"
+﻿import sys, time, os
 
-print p0p
-print p10p
-print p20p
-print p30p
-print p40p
-print p50p
-print p60p
-print p70p
-print p80p
-print p90p
-print p100p
+def experiment_xxx():
+   print("Installing XXX...      "),
+   time.sleep(1)
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("░░░░░░░░░░   0%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("¦░░░░░░░░░  10%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("¦¦░░░░░░░░  20%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓░░░░░░░  30%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓░░░░░░  40%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓░░░░░  50%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓▓░░░░  60%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓▓▓░░░  70%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓▓▓▓░░  80%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓▓▓▓▓░  90%"),
+   time.sleep(1)
+   
+   os.system('cls' if os.name == 'nt' else 'clear')
+   print("▓▓▓▓▓▓▓▓▓▓ 100%"),
+   
+experiment_xxx()
+print "[SUCCESSFUL]"
+
+
