@@ -1,51 +1,52 @@
 ﻿import sys, time, subprocess
-
+print "hello"
+time.sleep(2)
 def experiment_xxx():
-   print("Installing XXX...      "),
+   print("Installing XXX...      ")
    time.sleep(1)
 
    print(chr(27) + "[2J")
-   print("░░░░░░░░░░   0%"),
+   print("░░░░░░░░░░   0%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓░░░░░░░░░  10%"),
+   print("▓░░░░░░░░░  10%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓░░░░░░░░  20%"),
+   print("▓▓░░░░░░░░  20%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓░░░░░░░  30%"),
+   print("▓▓▓░░░░░░░  30%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓░░░░░░  40%"),
+   print("▓▓▓▓░░░░░░  40%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓░░░░░  50%"),
+   print("▓▓▓▓▓░░░░░  50%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓▓░░░░  60%"),
+   print("▓▓▓▓▓▓░░░░  60%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓▓▓░░░  70%"),
+   print("▓▓▓▓▓▓▓░░░  70%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓▓▓▓░░  80%"),
+   print("▓▓▓▓▓▓▓▓░░  80%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓▓▓▓▓░  90%"),
+   print("▓▓▓▓▓▓▓▓▓░  90%")
    time.sleep(1)
    
    print(chr(27) + "[2J")
-   print("▓▓▓▓▓▓▓▓▓▓ 100%"),
+   print("▓▓▓▓▓▓▓▓▓▓ 100%")
    
 experiment_xxx()
 print "[SUCCESSFUL]"
