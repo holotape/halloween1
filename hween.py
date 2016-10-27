@@ -5,9 +5,6 @@ init()
 
 from random import randint
 
-file_object = open("kernel.txt", "r")
-line = file_object.readline()
-
 print ("\033[1;32;40m INITIALIZING  \n")
 time.sleep(2)
 sys.stderr.write("\x1b[2J\x1b[H")
@@ -15,6 +12,8 @@ sys.stderr.write("\x1b[2J\x1b[H")
 n = 0
 
 while True:
+   file_object = open("kernel.txt", "r")
+   line = file_object.readline()
    def experiment_xxx():
       print "RUNNING TEST ON SUBJECT", random.randint(522,9067)
       time.sleep(10)
@@ -71,7 +70,7 @@ while True:
       
       sys.stderr.write("\x1b[2J\x1b[H")
       print("WARNING: TERMINATE PROGRAM")
-      print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%")
+      print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 99%")
       time.sleep(3)
 
    experiment_xxx()
@@ -84,5 +83,5 @@ while True:
        line = file_object.readline()
        time.sleep(0.09)
    file_object.close()
-   if n == 1:   
+   if n == 99999:   
       break
