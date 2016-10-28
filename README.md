@@ -24,3 +24,5 @@ Add this line near the bottom:
 (assuming this is the location of the file)
 
 This should work as long as you're booting to terminal and not X.  If you're booting to X, git gud nub <3
+
+This also depends on the *colorama* package, get it here: https://pypi.python.org/pypi/colorama
